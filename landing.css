@@ -48,8 +48,7 @@
    
   /*hero section */
   section.hero {
-    background: linear-gradient(rgba(3, 3, 3, 0.75), rgba(3, 3, 3, 0.9)),
-      url("");
+    background-image: url("goldshoe.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -57,7 +56,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 45rem;
+    height: 100rem;
     margin: 4rem 5rem 1rem;
     position: relative;
     text-align: center;
@@ -65,11 +64,13 @@
   p.hero-header {
     font-weight: 700;
     font-size: 3rem;
+    color: orange;
   }
   p.hero-para {
     font-size: 2rem;
     padding: 1rem;
     text-align: center;
+    color: orange;
   }
    
   .services,
@@ -106,6 +107,7 @@
     height: 12rem;
     justify-content: center;
     text-align: center;
+    color: white;
   }
    
   /* about */
@@ -117,7 +119,7 @@
     grid: 1fr / 1fr 2fr;
   }
   .about img {
-    border-radius: 100%;
+    border-radius: 50%;
       height: 80%;
     width: 80%;
   }
@@ -126,6 +128,7 @@
       padding-right: 5rem;
       text-align: justify;
   }
+
    
   /* login & contact */
   .login-contact{
@@ -138,6 +141,7 @@
       text-align: center;
       margin-bottom: 2rem;
       color: orange;
+      text-decoration: none;
   }
   input,
   textarea{
@@ -154,7 +158,7 @@
     box-shadow:  -14px -14px 29px #222, 14px 14px 29px #38383c;
   }
   input::placeholder{
-    font-size :1rem;
+    font-size :1.5rem;
     color: white;
   }
   input.contact-input, input.login-input{
@@ -197,6 +201,7 @@
   #searchTerm {
       background: inherit;
     width: 80%;
+  
     border: 0 solid orange;
       outline: 0;
     color: #fff;
@@ -221,6 +226,14 @@
       margin-right: 0;
       width: 20% !important;
   }
+  .login-form, .log-in{
+    color: orange;
+    text-decoration: none;
+  }
+  #login{
+    color: orange;
+  }
+  
    
   /*footer */
   footer {
